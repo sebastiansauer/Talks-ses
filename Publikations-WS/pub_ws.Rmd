@@ -101,9 +101,9 @@ Google Scholar ist eine nützliche Suchmaschine.
 Es gibt [mehr Zitierstile](https://www.zotero.org/styles) als es Journals gibt...
 
 
-## Journals lieben es, die Zitationsinfo zu verstecken  {data-background="img/plos-cite.jpg"}
+##  {data-background="img/plos-cite.png"}
 
-
+<!-- Journals lieben es, die Zitationsinfo zu verstecken  -->
 
 ## {data-background="img/twitter_ex.png"}
 
