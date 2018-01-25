@@ -13,7 +13,7 @@ output:
       slideNumber: TRUE
       previewLinks: FALSE
     #center: FALSE
-    #css: "/Users/sebastiansauer/Documents/Div/custom.css"
+    css: custom.css
 ---
 
 ```{r knitr-setup, echo = FALSE,}
@@ -70,7 +70,15 @@ p_growth
 
 
 
-##  {data-background="img/50bil.jpg"}
+## Wer liest 50 Milllionen Papers?
+
+
+```{r 50mil, echo = FALSE}
+
+knitr::include_graphics("img/50bil.jpg")
+
+```
+
 
 
 <small>
@@ -101,13 +109,26 @@ Google Scholar ist eine nützliche Suchmaschine.
 Es gibt [mehr Zitierstile](https://www.zotero.org/styles) als es Journals gibt...
 
 
-##  {data-background="img/plos-cite.png"}
+## Journals lieben es, die Zitationsinfo zu verstecken 
 
-<!-- Journals lieben es, die Zitationsinfo zu verstecken  -->
+```{r cit-plo, echo = FALSE}
 
-## {data-background="img/twitter_ex.png"}
+knitr::include_graphics("img/plos-cite.png")
 
-<!-- Verfolge (die Publikationen von) interessanten Forschern (m/w)  -->
+```
+
+
+
+
+## Verfolge (die Publikationen von) Forschern
+
+
+```{r twitter, echo = FALSE}
+
+knitr::include_graphics("img/twitter_ex.png")
+
+```
+
 
 
 
@@ -121,9 +142,15 @@ Es gibt [mehr Zitierstile](https://www.zotero.org/styles) als es Journals gibt..
 - [Facebook](hptts://facebook.com/)
 
 
-##  {data-background="img/stabi.png"}
+##  Große Unis bieten Zugang zu vielen Papers
 
-<!-- Große Unis bieten Zugang zu vielen Papers -->
+```{r stabi, echo = FALSE, out.width = "60%"}
+
+knitr::include_graphics("img/stabi.png")
+
+```
+
+
 
 <!-- ## Lesen Sie nach dem Pryamidenprinzip -->
 
@@ -444,7 +471,13 @@ Bald erhältlich: Sauer, S. Modernde Datenanalyse mit R. Springer.
 | Einziehen!      | Einreichen! |
 
 
-## {data-background="img/scribble.jpg"}
+## Machen Sie Notizen bevor Sie Folien malen
+
+```{r SCRIBBLE, echo = FALSE}
+
+knitr::include_graphics("img/scribble.jpg")
+
+```
 
 
 ## Schicken Sie das Manuskript NICHT per MAil
