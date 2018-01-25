@@ -2,7 +2,7 @@
 title: "Fachartikel publizieren" 
 subtitle: "Versuch einer Anleitung"
 author: "Sebastian Sauer"
-date: "CC-BY-4.0"
+date: "CC-BY-4.0; https://sebastiansauer.github.io/Talks-ses/#/"
 bibliography: "/Users/sebastiansauer/Documents/Literatur/ref_mgt/library.bib"
 
 output: 
