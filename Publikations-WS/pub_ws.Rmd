@@ -660,7 +660,7 @@ H-index. (2018, January 24). In Wikipedia, The Free Encyclopedia. Retrieved 12:0
 
 >  You do not use the empirical data for the analysis, but the empirical data uses you.
 
->  The author does not exhibit adequate acquaintance with the subject under discussion, the scholarship on it, the structure of logical argument, or the writing of English. 
+<!-- >  The author does not exhibit adequate acquaintance with the subject under discussion, the scholarship on it, the structure of logical argument, or the writing of English.  -->
 
 >  This article is on an interesting topic. Unfortunately there is no more positive to say about this manuscript. 
 
