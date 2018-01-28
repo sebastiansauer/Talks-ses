@@ -147,7 +147,7 @@ knitr::include_graphics("img/plos-cite.png")
 http://journals.plos.org/plosone/
 
 
-## Verfolge (die Publikationen von) Forschern
+## Verfolge die Publikationen von Forschern
 
 
 ```{r twitter, echo = FALSE, out.width = "50%"}
@@ -194,19 +194,17 @@ knitr::include_graphics("img/stabi.png")
 
 
 <small>
-Cosmetics as a Feature of the Extended Human Phenotype: Modulation of the Perception of Biologically Important Facial Signals [@Etcoff2011]
-
-https://goo.gl/GwsKnN
+Cosmetics as a Feature of the Extended Human Phenotype: Modulation of the Perception of Biologically Important Facial Signals [@Etcoff2011]; https://goo.gl/GwsKnN
 </small>
 
-```{r makeup, echo = FALSE, out.width = "50%"}
+```{r makeup, echo = FALSE, out.width = "60%"}
 
 knitr::include_graphics("img/makeup_paper.png")
 
 ```
 
 
-## Suchen Sie Journals von interessanten Papers
+## Suchen Sie interessante Journals 
 
 ```{r sjr, echo = FALSE}
 
@@ -311,7 +309,8 @@ df <- data_frame(
 p_zufall <- ggplot(df) +
   aes(x = diff, fill = sig) +
   geom_histogram() +
-  geom_vline(xintercept = c(-1.96, 1.96), linetype = "dashed")
+  geom_vline(xintercept = c(-1.96, 1.96), linetype = "dashed") +
+  labs(fill = "Signifikanz")
 
 p_zufall
 ```
@@ -370,7 +369,7 @@ pwr.t.test(n = 30, d = .3)
 ```
 
 
-## Effektstärken in der freine Wildbahn sind klein
+## Effektstärken der freien Wildbahn sind klein
 
 - klein (25. Perzentil): $\rho = 0.1$
 - mittel (50 Perzentil): $\rho = 0.2$
@@ -441,7 +440,7 @@ meine_rohdaten %>%
   lies_sie_ein() %>% 
   entferne_fehlende_Werte() %>% 
   gruppiere_nach(geschlecht) %>% 
-  berechne_mittelwerte() -> meine_daten
+  berechne(umsatz_mw = mittel(umsatz_produkte)) -> meine_daten
 ```
 
 Auf Errisch:
@@ -512,6 +511,7 @@ Bald erhältlich: Sauer, S. Modernde Datenanalyse mit R. Springer.
 10. Figures
 
 
+@apa6
 
 
 
@@ -519,6 +519,7 @@ Bald erhältlich: Sauer, S. Modernde Datenanalyse mit R. Springer.
 
 | Häusle-Bauer    | Paper-Schreiber |
 |-----------------|-----------------|
+| `r emo::ji("house")`| `r emo::ji("page_facing_up")`  |
 | Entwurf         | Notizen |
 | Plan            | Gliederung |
 | Rohbau          | Stichpunkte |
@@ -527,7 +528,7 @@ Bald erhältlich: Sauer, S. Modernde Datenanalyse mit R. Springer.
 | Einziehen!      | Einreichen! |
 
 
-## Machen Sie Notizen bevor Sie Folien malen
+## Machen Sie Notizen, bevor Sie Folien malen
 
 ```{r SCRIBBLE, echo = FALSE}
 
@@ -586,7 +587,7 @@ https://github.com/rstudio/rmarkdown
 bericht.doc  
 ...  
 berichtv2b.doc  
-....  
+...  
 berichtFINALv2.doc  
 ...  
 ...  
@@ -598,12 +599,11 @@ berichtFINALv2b_v7_Rudi_März_NEIN_final_v2a.doc
 <a href="https://imgflip.com/i/23adrx"><img src="https://i.imgflip.com/23adrx.jpg" title="made at imgflip.com"/></a>
 
 <small>
-https://imgflip.com/i/23adrx
-Tutorial: https://osf.io/v9nc6/
+https://imgflip.com/i/23adrx; 
+Git-Tutorial: https://osf.io/v9nc6/; https://github.com/
 </small>
 
 
-https://github.com/
 
 
 ## Titel: prägnant und ansprechend
@@ -621,7 +621,7 @@ https://github.com/
   
 ## Der Abstract ist das Aushängeschild
 
-```{r tweet, echo = FALSE, out.width = "70%"}
+```{r tweet, echo = FALSE, out.width = "60%"}
 
 knitr::include_graphics("img/tweet.png")
 
