@@ -16,6 +16,11 @@ output:
     css: custom.css
 ---
 
+
+
+
+
+
 ```{r knitr-setup, echo = FALSE,}
 knitr::opts_chunk$set(echo = FALSE,
                       out.width = "70%",
@@ -33,6 +38,24 @@ library(mosaic)
 library(plotly)
 ```
 
+
+
+<style type="text/css">
+  .reveal p {
+    text-align: left;
+  }
+  .reveal ul {
+    display: block;
+  }
+  .reveal ol {
+    display: block;
+  }
+</style>
+
+
+
+
+<!-- FIRST SLIDE NOW  -->
 
 
 # Schritt 1: Thema finden
@@ -61,7 +84,7 @@ p_growth
 ```
 
 <small>
-@bornmann2015growth;@Larsen:2010aa
+@bornmann2015growth; @Larsen:2010aa
 </small>
 
 
@@ -80,6 +103,8 @@ knitr::include_graphics("img/50bil.jpg")
 ```
 
 
+<!-- ca. 30.000 Journals -->
+
 
 <small>
 @LEAP:LEAP0509; Bildquelle: ZeroOne; CC-BY-SA 2.0; https://www.flickr.com/photos/70591690@N00/2693551009/
@@ -96,7 +121,9 @@ knitr::include_graphics("https://media.giphy.com/media/3oFzlYqs3jaI90KaL6/giphy.
 ```
 
 
-Google Scholar ist eine nützliche Suchmaschine. 
+
+
+[Google Scholar](https://scholar.google.de/  ) ist eine nützliche Suchmaschine. 
 
 
 ## Nutzen Sie eine Software zur Literaturverwaltung
@@ -117,19 +144,19 @@ knitr::include_graphics("img/plos-cite.png")
 
 ```
 
-
+http://journals.plos.org/plosone/
 
 
 ## Verfolge (die Publikationen von) Forschern
 
 
-```{r twitter, echo = FALSE}
+```{r twitter, echo = FALSE, out.width = "50%"}
 
 knitr::include_graphics("img/twitter_ex.png")
 
 ```
 
-
+https://twitter.com/sauer_sebastian  
 
 
 
@@ -195,7 +222,14 @@ http://www.scimagojr.com/journalrank.php
 
 ## Trauen Sie keinem Impact Factor 
 
-![](img/brembs_power.jpg)
+```{r power, echo = FALSE}
+
+knitr::include_graphics("img/brembs_power.jpg")
+
+```
+
+
+
 
 Wenig Zusammenhang zwischen IF und statistischer Power
 
@@ -248,10 +282,14 @@ Subjects were presented the stimuli on an iMac desktop. Each subject saw all fou
 ## Melden Sie Ihre Studie an
 
 
-![](img/osf_prereg.png)
+```{r prereg, echo = FALSE}
+
+knitr::include_graphics("img/osf_prereg.png")
+
+```
 
 
-![](img/preregistered.png)
+https://osf.io/prereg/  
 
 
 <!-- ## Verringern Sie die Researcher Degrees of Freedom -->
@@ -320,9 +358,7 @@ p_simu_phacking
 4. Studienablauf vorab festlegen
 
 <small>
-@Simmons2011c, [Volltext hier](http://journals.sagepub.com/doi/abs/10.1177/0956797611417632?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed)
-
-@Wicherts:2016aa, [Volltext hier](https://www.frontiersin.org/articles/10.3389/fpsyg.2016.01832/full)
+@Simmons2011c, [Volltext hier](http://journals.sagepub.com/doi/abs/10.1177/0956797611417632?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed), @Wicherts:2016aa, [Volltext hier](https://www.frontiersin.org/articles/10.3389/fpsyg.2016.01832/full)
 
 </small>
 
@@ -357,6 +393,7 @@ pwr.t.test(n = 30, d = .3)
 ## Arbeiten Sie mit Kollegen und Studierenden zusammen
 
 
+
 ![](https://imgs.xkcd.com/comics/interdisciplinary.png)
 
 <small>
@@ -371,14 +408,28 @@ https://xkcd.com/755/
 
 ## Mit Excel sind Fehler schwer zu finden
 
+```{r excel1, echo = FALSE}
 
-![](img/excel1.png)
+knitr::include_graphics("img/excel1.png")
+
+```
+
+
+
 
 @herndon2013does
 
 ## Das Problem ist, dass Excel Daten und Analyse vermengt
 
-![](img/excel2.png)
+
+```{r excel2, echo = FALSE}
+
+knitr::include_graphics("img/excel2.png")
+
+```
+
+
+
 
 
 ## Nutzen Sie Syntaxsprachen wie R
@@ -432,8 +483,13 @@ knitr::include_graphics("img/nuts.png")
 
 ... oder holen Sie einen Statistiker an Bord
 
+```{r rfuerds, echo = FALSE, out.width = "30%"}
 
-![](img/rfuerds.jpg)
+knitr::include_graphics("img/rfuerds.jpg")
+
+```
+
+
 
 Bald erhältlich: Sauer, S. Modernde Datenanalyse mit R. Springer.
 
@@ -482,11 +538,26 @@ knitr::include_graphics("img/scribble.jpg")
 
 ## Schicken Sie das Manuskript NICHT per MAil
 
-![](img/email1-crop.png)
+
+```{r EMAIL1, echo = FALSE}
+
+knitr::include_graphics("img/email1-crop.png")
+
+```
+
+
 
 ## Nutzen Sie eine gemeinsame Datei-Ablage
 
-![](img/server-crop.png)
+
+```{r server, echo = FALSE}
+
+knitr::include_graphics("img/server-crop.png")
+
+```
+
+
+
 
 
 ## Löschen Sie Word
@@ -503,8 +574,26 @@ Für die Word-Afficionados: [APA Word-Vorlage](https://templates.office.com/en-u
 <iframe src="https://player.vimeo.com/video/178485416" width="700" height="394" frameborder="0" style="margin-bottom: 2em;" webkitallowfullscreen mozallowfullscreen allowfullscreen>
 </iframe>
 
+https://github.com/rstudio/rmarkdown 
 
-## Lernen Sie `git`
+
+## Es gibt mehrere Methoden, um Dateien zu versionieren 
+
+
+  
+    
+      
+bericht.doc  
+...  
+berichtv2b.doc  
+....  
+berichtFINALv2.doc  
+...  
+...  
+berichtFINALv2b_v7_Rudi_März_NEIN_final_v2a.doc  
+
+
+## Versionieren Sie mit `git`
 
 <a href="https://imgflip.com/i/23adrx"><img src="https://i.imgflip.com/23adrx.jpg" title="made at imgflip.com"/></a>
 
@@ -512,6 +601,9 @@ Für die Word-Afficionados: [APA Word-Vorlage](https://templates.office.com/en-u
 https://imgflip.com/i/23adrx
 Tutorial: https://osf.io/v9nc6/
 </small>
+
+
+https://github.com/
 
 
 ## Titel: prägnant und ansprechend
@@ -557,6 +649,10 @@ devtools::install_github("crsh/papaja")
 
 [PDF-Ausgabe](https://raw.githubusercontent.com/crsh/papaja/master/example/example.pdf)
 
+https://github.com/crsh/papaja
+
+
+
 ## Schreiben Sie einen Cover Letter an den Editor
 
 
@@ -601,12 +697,12 @@ http://www.sciencemag.org/about/mission-and-scope
 
 ## Erstellen Sie sich eine ORCID
 
-https://orcid.org/
 
 >   ORCID provides a persistent digital identifier that distinguishes you from every other researcher and, through integration in key research workflows such as manuscript and grant submission, supports automated linkages between you and your professional activities ensuring that your work is recognized. 
 
 
 
+https://orcid.org/  
 
 
 
@@ -621,7 +717,7 @@ https://orcid.org/
 
 ## Laden Sie Ihren Preprint auf einen Open Access Server
 
-```{r osf-preprint, echo = FALSE, out.width = "70%"}
+```{r osf-preprint, echo = FALSE, out.width = "60%"}
 
 knitr::include_graphics("img/osf_preprints.png")
 
@@ -629,10 +725,19 @@ knitr::include_graphics("img/osf_preprints.png")
 
 
 ## Machen Sie Ihre Daten und Ihr weiteres Material zugänglich
-![](img/opendata.png)
-![](img/openmaterials.png)
 
-Beispiel: [Datensatz zu Extraversion](https://osf.io/4kgzh/)
+```{r open, echo = FALSE, out.width = "20%", results = "hold"}
+
+knitr::include_graphics(c("img/opendata.png", "img/openmaterials.png"))
+
+```
+
+
+
+
+
+
+Beispiel: [Datensatz zu Extraversion](https://osf.io/4kgzh/)  
 
 
 ## Nutzen Sie das Open Science Framework
@@ -643,6 +748,7 @@ knitr::include_graphics("img/osf.png")
 
 ```
 
+https://osf.io/  
 
 
 ## Schreiben Sie in den sozialen Netzwerken
@@ -653,6 +759,7 @@ knitr::include_graphics("img/data_se.png")
 
 ```
 
+https://data-se.netlify.com/
 
 ## Klären Sie, wer Autor ist
 
@@ -671,9 +778,20 @@ http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-
 </small>
 
 
-## Schauen Sie Ihren h-Index nach 
+## Schauen Sie Ihren h-Index nach (bei Google Scholar)
 
-![](img/H-index-en.svg)
+
+```{r H-index, echo = FALSE, out.width = "50%"}
+
+knitr::include_graphics("img/H-index-en.svg")
+
+```
+
+
+
+
+
+
 
 
 <small>
@@ -683,7 +801,16 @@ H-index. (2018, January 24). In Wikipedia, The Free Encyclopedia. Retrieved 12:0
 
 ## Erstellen Sie sich ein Scholar-Profil
 
-![](img/ses_scholar.png)
+
+```{r SCHOLAR, echo = FALSE}
+
+knitr::include_graphics("img/ses_scholar.png")
+
+```
+
+
+
+https://scholar.google.de/
 
 
 ## Ertragen Sie die Hinweise der Reviewer 
@@ -703,6 +830,29 @@ https://shitmyreviewerssay.tumblr.com/
 </small>
 
 # Anhang
+
+## 
+Danke für Ihre Aufmerksamkeit  
+
+
+`r emo::ji("+1")`  
+
+
+
+
+
+**Sebastian Sauer**  
+
+
+`r emo::ji("email")` sebastian.sauer@fom.de  
+`r emo::ji("page_with_curl")` https://data-se.netlify.com/  
+`r emo::ji("twitter")` sauer_sebastian  
+
+
+
+
+`r emo::ji("beers")`   
+
 
 
 
