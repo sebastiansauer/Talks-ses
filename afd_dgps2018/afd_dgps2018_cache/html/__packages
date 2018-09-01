@@ -9,9 +9,11 @@ dplyr
 stringr
 forcats
 DiagrammeR
-bindrcpp
 StanHeaders
 rstan
 rethinking
 knitr
 kableExtra
+bindrcpp
+ggmap
+leaflet
