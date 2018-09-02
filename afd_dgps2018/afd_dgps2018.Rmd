@@ -6,10 +6,8 @@ author: |
   Sandra Sülzenbrück,
   Yvonne Ferreira,
   Rüdiger Buchkremer
-date: "FOM"
+date: "FOM<br>DGPs 2018"
 css: ["default-fonts", "default"]
-csl: "/Users/sebastiansaueruser/Documents/Literatur/ref_mgt/apa.csl"
-bibliography: "/Users/sebastiansaueruser/Documents/Literatur/ref_mgt/library.bib"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -500,4 +498,5 @@ Sebastian Sauer
 #### `r icon::fa("github", size = 1)` [sebastiansauer](https://github.com/sebastiansauer)
 #### `r icon::fa("link", size = 1)` <https://data-se.netlify.com/>
 #### `r icon::fa("envelope", size = 1)` ssauer@posteo.de
+#### `r icon::fa("file", size = 1)` Get slides here: <https://sebastiansauer.github.io/Talks-ses/afd_dgps2018/afd_dgps2018.html>
   
